@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		6261196D1EB3B72C00D427AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6261196C1EB3B72C00D427AD /* AppDelegate.swift */; };
-		6261196F1EB3B72C00D427AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6261196E1EB3B72C00D427AD /* ViewController.swift */; };
-		626119721EB3B72C00D427AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626119701EB3B72C00D427AD /* Main.storyboard */; };
 		626119741EB3B72C00D427AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626119731EB3B72C00D427AD /* Assets.xcassets */; };
 		626119771EB3B72C00D427AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626119751EB3B72C00D427AD /* LaunchScreen.storyboard */; };
+		626119801EB3B7DF00D427AD /* GHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6261197F1EB3B7DF00D427AD /* GHTabBarController.swift */; };
+		626119821EB3B81300D427AD /* GHTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626119811EB3B81300D427AD /* GHTabBarController.storyboard */; };
+		6261198D1EB3B8CE00D427AD /* GHNotificacoesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6261198B1EB3B8CE00D427AD /* GHNotificacoesVC.swift */; };
+		626119931EB3BA7E00D427AD /* GHConstantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119921EB3BA7E00D427AD /* GHConstantes.swift */; };
+		626119C21EB407ED00D427AD /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119C01EB407ED00D427AD /* ENSideMenu.swift */; };
+		626119C31EB407ED00D427AD /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119C11EB407ED00D427AD /* ENSideMenuNavigationController.swift */; };
+		626119C91EB40A4700D427AD /* GHMenuNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119C81EB40A4700D427AD /* GHMenuNC.swift */; };
+		626119F51EB419D800D427AD /* GHMenuTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119F31EB419D800D427AD /* GHMenuTC.swift */; };
+		62611A021EB4228600D427AD /* GHMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62611A011EB4228600D427AD /* GHMenu.storyboard */; };
+		62611A041EB4269D00D427AD /* rafael.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 62611A031EB4269D00D427AD /* rafael.jpeg */; };
+		62C92EFA1EBAC0E800C596B3 /* GHMinhasVendasTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92EF81EBAC0E800C596B3 /* GHMinhasVendasTC.swift */; };
+		62C92EFD1EBB2ECF00C596B3 /* GHDashboardTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92EFC1EBB2ECF00C596B3 /* GHDashboardTC.swift */; };
+		62C92F011EBB97B200C596B3 /* GHUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92F001EBB97B200C596B3 /* GHUtils.swift */; };
+		62C92F051EBB9F7A00C596B3 /* GHMensagemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92F041EBB9F7A00C596B3 /* GHMensagemCell.swift */; };
+		62C92F071EBBBAFC00C596B3 /* GHMensagemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92F061EBBBAFC00C596B3 /* GHMensagemVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		626119691EB3B72C00D427AD /* GoHotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoHotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6261196C1EB3B72C00D427AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6261196E1EB3B72C00D427AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		626119711EB3B72C00D427AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		626119731EB3B72C00D427AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		626119761EB3B72C00D427AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		626119781EB3B72C00D427AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6261197F1EB3B7DF00D427AD /* GHTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GHTabBarController.swift; path = Views/GHTabBarController.swift; sourceTree = "<group>"; };
+		626119811EB3B81300D427AD /* GHTabBarController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GHTabBarController.storyboard; sourceTree = "<group>"; };
+		6261198B1EB3B8CE00D427AD /* GHNotificacoesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHNotificacoesVC.swift; sourceTree = "<group>"; };
+		626119921EB3BA7E00D427AD /* GHConstantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHConstantes.swift; sourceTree = "<group>"; };
+		626119C01EB407ED00D427AD /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		626119C11EB407ED00D427AD /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		626119C81EB40A4700D427AD /* GHMenuNC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMenuNC.swift; sourceTree = "<group>"; };
+		626119F31EB419D800D427AD /* GHMenuTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMenuTC.swift; sourceTree = "<group>"; };
+		62611A011EB4228600D427AD /* GHMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GHMenu.storyboard; sourceTree = "<group>"; };
+		62611A031EB4269D00D427AD /* rafael.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rafael.jpeg; sourceTree = "<group>"; };
+		62C92EF81EBAC0E800C596B3 /* GHMinhasVendasTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMinhasVendasTC.swift; sourceTree = "<group>"; };
+		62C92EFC1EBB2ECF00C596B3 /* GHDashboardTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHDashboardTC.swift; sourceTree = "<group>"; };
+		62C92F001EBB97B200C596B3 /* GHUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHUtils.swift; sourceTree = "<group>"; };
+		62C92F041EBB9F7A00C596B3 /* GHMensagemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMensagemCell.swift; sourceTree = "<group>"; };
+		62C92F061EBBBAFC00C596B3 /* GHMensagemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMensagemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,67 @@
 		6261196B1EB3B72C00D427AD /* GoHotmart */ = {
 			isa = PBXGroup;
 			children = (
-				6261196C1EB3B72C00D427AD /* AppDelegate.swift */,
-				6261196E1EB3B72C00D427AD /* ViewController.swift */,
-				626119701EB3B72C00D427AD /* Main.storyboard */,
-				626119731EB3B72C00D427AD /* Assets.xcassets */,
-				626119751EB3B72C00D427AD /* LaunchScreen.storyboard */,
+				626119F21EB4127500D427AD /* Library */,
+				626119941EB3BC6400D427AD /* Resource */,
+				626119911EB3BA5B00D427AD /* Utils */,
+				626119901EB3B8FE00D427AD /* Controllers */,
+				6261198F1EB3B8DD00D427AD /* View */,
 				626119781EB3B72C00D427AD /* Info.plist */,
 			);
 			path = GoHotmart;
+			sourceTree = "<group>";
+		};
+		6261198F1EB3B8DD00D427AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				626119751EB3B72C00D427AD /* LaunchScreen.storyboard */,
+				626119811EB3B81300D427AD /* GHTabBarController.storyboard */,
+				62611A011EB4228600D427AD /* GHMenu.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		626119901EB3B8FE00D427AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6261196C1EB3B72C00D427AD /* AppDelegate.swift */,
+				6261197F1EB3B7DF00D427AD /* GHTabBarController.swift */,
+				6261198B1EB3B8CE00D427AD /* GHNotificacoesVC.swift */,
+				62C92EF81EBAC0E800C596B3 /* GHMinhasVendasTC.swift */,
+				62C92EFC1EBB2ECF00C596B3 /* GHDashboardTC.swift */,
+				626119C81EB40A4700D427AD /* GHMenuNC.swift */,
+				626119F31EB419D800D427AD /* GHMenuTC.swift */,
+				62C92F041EBB9F7A00C596B3 /* GHMensagemCell.swift */,
+				62C92F061EBBBAFC00C596B3 /* GHMensagemVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		626119911EB3BA5B00D427AD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				626119921EB3BA7E00D427AD /* GHConstantes.swift */,
+				62C92F001EBB97B200C596B3 /* GHUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		626119941EB3BC6400D427AD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				62611A031EB4269D00D427AD /* rafael.jpeg */,
+				626119731EB3B72C00D427AD /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		626119F21EB4127500D427AD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				626119C01EB407ED00D427AD /* ENSideMenu.swift */,
+				626119C11EB407ED00D427AD /* ENSideMenuNavigationController.swift */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +203,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62611A041EB4269D00D427AD /* rafael.jpeg in Resources */,
 				626119771EB3B72C00D427AD /* LaunchScreen.storyboard in Resources */,
 				626119741EB3B72C00D427AD /* Assets.xcassets in Resources */,
-				626119721EB3B72C00D427AD /* Main.storyboard in Resources */,
+				62611A021EB4228600D427AD /* GHMenu.storyboard in Resources */,
+				626119821EB3B81300D427AD /* GHTabBarController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +218,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6261196F1EB3B72C00D427AD /* ViewController.swift in Sources */,
+				62C92EFA1EBAC0E800C596B3 /* GHMinhasVendasTC.swift in Sources */,
+				626119F51EB419D800D427AD /* GHMenuTC.swift in Sources */,
+				626119C31EB407ED00D427AD /* ENSideMenuNavigationController.swift in Sources */,
+				62C92EFD1EBB2ECF00C596B3 /* GHDashboardTC.swift in Sources */,
+				62C92F071EBBBAFC00C596B3 /* GHMensagemVC.swift in Sources */,
+				626119801EB3B7DF00D427AD /* GHTabBarController.swift in Sources */,
+				626119C21EB407ED00D427AD /* ENSideMenu.swift in Sources */,
+				626119931EB3BA7E00D427AD /* GHConstantes.swift in Sources */,
+				626119C91EB40A4700D427AD /* GHMenuNC.swift in Sources */,
+				62C92F051EBB9F7A00C596B3 /* GHMensagemCell.swift in Sources */,
+				62C92F011EBB97B200C596B3 /* GHUtils.swift in Sources */,
+				6261198D1EB3B8CE00D427AD /* GHNotificacoesVC.swift in Sources */,
 				6261196D1EB3B72C00D427AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +237,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		626119701EB3B72C00D427AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				626119711EB3B72C00D427AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		626119751EB3B72C00D427AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +386,7 @@
 				6261197D1EB3B72C00D427AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
