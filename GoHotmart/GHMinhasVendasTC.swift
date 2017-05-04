@@ -12,8 +12,8 @@ class GHMinhasVendasTC: UITableViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        let add = UIBarButtonItem(image: #imageLiteral(resourceName: "hamburger"), style: .done, target: self, action: #selector(showMenu))
-        self.navigationItem.leftBarButtonItem = add
+        let menu = UIBarButtonItem(image: #imageLiteral(resourceName: "hamburger"), style: .done, target: self, action: #selector(showMenu))
+        self.navigationItem.leftBarButtonItem = menu
     }
 
     override func viewDidAppear(_ animated: Bool) {

@@ -38,9 +38,9 @@
         <!--HotMart-->
         <scene sceneID="l1a-8A-y70">
             <objects>
-                <navigationController title="HotMart" automaticallyAdjustsScrollViewInsets="NO" id="HbO-sq-puu" customClass="GHMenuNC" customModule="GoHotmart" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController title="HotMart" automaticallyAdjustsScrollViewInsets="NO" id="HbO-sq-puu" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="hmh-bd-VNd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hmh-bd-VNd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.97918099160000005" green="0.68574309349999996" blue="0.22682574389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

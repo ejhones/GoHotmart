@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GHTabBarController: UITabBarController, ENSideMenuDelegate {
+class GHTabBarController: UITabBarController {
     
     var mensagemVC: GHMensagemVC!
     var minhasVendasVC: GHMinhasVendasTC!
@@ -17,15 +17,15 @@ class GHTabBarController: UITabBarController, ENSideMenuDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.defineStoryboards()
         self.definePropertyTabIcon()
         self.viewControllers = [mensagemVC as UIViewController, minhasVendasVC as UIViewController, notificacoesVC as UIViewController]
         self.selectedIndex = INDEX_BAR_SELECTED
-        self.sideMenuController()?.sideMenu?.delegate = self
         self.menuTC = UIStoryboard(name: "GHMenu", bundle: nil).instantiateViewController(withIdentifier: "GHMenu") as! GHMenuTC
+        
         let didSelected = Notification.Name("didSelected")
         let showMenu = Notification.Name("showMenu")
-
         NotificationCenter.default.addObserver(self, selector: #selector(self.didSelected), name: didSelected, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(self.showMenu(_:)), name: showMenu, object: nil)
     }

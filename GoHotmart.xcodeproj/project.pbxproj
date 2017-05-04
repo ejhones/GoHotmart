@@ -14,15 +14,11 @@
 		626119821EB3B81300D427AD /* GHTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626119811EB3B81300D427AD /* GHTabBarController.storyboard */; };
 		6261198D1EB3B8CE00D427AD /* GHNotificacoesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6261198B1EB3B8CE00D427AD /* GHNotificacoesVC.swift */; };
 		626119931EB3BA7E00D427AD /* GHConstantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119921EB3BA7E00D427AD /* GHConstantes.swift */; };
-		626119C21EB407ED00D427AD /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119C01EB407ED00D427AD /* ENSideMenu.swift */; };
-		626119C31EB407ED00D427AD /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119C11EB407ED00D427AD /* ENSideMenuNavigationController.swift */; };
-		626119C91EB40A4700D427AD /* GHMenuNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119C81EB40A4700D427AD /* GHMenuNC.swift */; };
 		626119F51EB419D800D427AD /* GHMenuTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626119F31EB419D800D427AD /* GHMenuTC.swift */; };
 		62611A021EB4228600D427AD /* GHMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62611A011EB4228600D427AD /* GHMenu.storyboard */; };
 		62611A041EB4269D00D427AD /* rafael.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 62611A031EB4269D00D427AD /* rafael.jpeg */; };
 		62C92EFA1EBAC0E800C596B3 /* GHMinhasVendasTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92EF81EBAC0E800C596B3 /* GHMinhasVendasTC.swift */; };
 		62C92EFD1EBB2ECF00C596B3 /* GHDashboardTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92EFC1EBB2ECF00C596B3 /* GHDashboardTC.swift */; };
-		62C92F011EBB97B200C596B3 /* GHUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92F001EBB97B200C596B3 /* GHUtils.swift */; };
 		62C92F051EBB9F7A00C596B3 /* GHMensagemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92F041EBB9F7A00C596B3 /* GHMensagemCell.swift */; };
 		62C92F071EBBBAFC00C596B3 /* GHMensagemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C92F061EBBBAFC00C596B3 /* GHMensagemVC.swift */; };
 /* End PBXBuildFile section */
@@ -37,15 +33,11 @@
 		626119811EB3B81300D427AD /* GHTabBarController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GHTabBarController.storyboard; sourceTree = "<group>"; };
 		6261198B1EB3B8CE00D427AD /* GHNotificacoesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHNotificacoesVC.swift; sourceTree = "<group>"; };
 		626119921EB3BA7E00D427AD /* GHConstantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHConstantes.swift; sourceTree = "<group>"; };
-		626119C01EB407ED00D427AD /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
-		626119C11EB407ED00D427AD /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
-		626119C81EB40A4700D427AD /* GHMenuNC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMenuNC.swift; sourceTree = "<group>"; };
 		626119F31EB419D800D427AD /* GHMenuTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMenuTC.swift; sourceTree = "<group>"; };
 		62611A011EB4228600D427AD /* GHMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GHMenu.storyboard; sourceTree = "<group>"; };
 		62611A031EB4269D00D427AD /* rafael.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rafael.jpeg; sourceTree = "<group>"; };
 		62C92EF81EBAC0E800C596B3 /* GHMinhasVendasTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMinhasVendasTC.swift; sourceTree = "<group>"; };
 		62C92EFC1EBB2ECF00C596B3 /* GHDashboardTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHDashboardTC.swift; sourceTree = "<group>"; };
-		62C92F001EBB97B200C596B3 /* GHUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHUtils.swift; sourceTree = "<group>"; };
 		62C92F041EBB9F7A00C596B3 /* GHMensagemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMensagemCell.swift; sourceTree = "<group>"; };
 		62C92F061EBBBAFC00C596B3 /* GHMensagemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHMensagemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,12 +72,10 @@
 		6261196B1EB3B72C00D427AD /* GoHotmart */ = {
 			isa = PBXGroup;
 			children = (
-				626119F21EB4127500D427AD /* Library */,
 				626119941EB3BC6400D427AD /* Resource */,
 				626119911EB3BA5B00D427AD /* Utils */,
 				626119901EB3B8FE00D427AD /* Controllers */,
 				6261198F1EB3B8DD00D427AD /* View */,
-				626119781EB3B72C00D427AD /* Info.plist */,
 			);
 			path = GoHotmart;
 			sourceTree = "<group>";
@@ -108,7 +98,6 @@
 				6261198B1EB3B8CE00D427AD /* GHNotificacoesVC.swift */,
 				62C92EF81EBAC0E800C596B3 /* GHMinhasVendasTC.swift */,
 				62C92EFC1EBB2ECF00C596B3 /* GHDashboardTC.swift */,
-				626119C81EB40A4700D427AD /* GHMenuNC.swift */,
 				626119F31EB419D800D427AD /* GHMenuTC.swift */,
 				62C92F041EBB9F7A00C596B3 /* GHMensagemCell.swift */,
 				62C92F061EBBBAFC00C596B3 /* GHMensagemVC.swift */,
@@ -120,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				626119921EB3BA7E00D427AD /* GHConstantes.swift */,
-				62C92F001EBB97B200C596B3 /* GHUtils.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -129,18 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				62611A031EB4269D00D427AD /* rafael.jpeg */,
+				626119781EB3B72C00D427AD /* Info.plist */,
 				626119731EB3B72C00D427AD /* Assets.xcassets */,
 			);
 			name = Resource;
-			sourceTree = "<group>";
-		};
-		626119F21EB4127500D427AD /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				626119C01EB407ED00D427AD /* ENSideMenu.swift */,
-				626119C11EB407ED00D427AD /* ENSideMenuNavigationController.swift */,
-			);
-			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,15 +200,11 @@
 			files = (
 				62C92EFA1EBAC0E800C596B3 /* GHMinhasVendasTC.swift in Sources */,
 				626119F51EB419D800D427AD /* GHMenuTC.swift in Sources */,
-				626119C31EB407ED00D427AD /* ENSideMenuNavigationController.swift in Sources */,
 				62C92EFD1EBB2ECF00C596B3 /* GHDashboardTC.swift in Sources */,
 				62C92F071EBBBAFC00C596B3 /* GHMensagemVC.swift in Sources */,
 				626119801EB3B7DF00D427AD /* GHTabBarController.swift in Sources */,
-				626119C21EB407ED00D427AD /* ENSideMenu.swift in Sources */,
 				626119931EB3BA7E00D427AD /* GHConstantes.swift in Sources */,
-				626119C91EB40A4700D427AD /* GHMenuNC.swift in Sources */,
 				62C92F051EBB9F7A00C596B3 /* GHMensagemCell.swift in Sources */,
-				62C92F011EBB97B200C596B3 /* GHUtils.swift in Sources */,
 				6261198D1EB3B8CE00D427AD /* GHNotificacoesVC.swift in Sources */,
 				6261196D1EB3B72C00D427AD /* AppDelegate.swift in Sources */,
 			);

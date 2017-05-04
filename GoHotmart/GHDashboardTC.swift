@@ -14,11 +14,8 @@ class GHDashboardTC: UITableViewController, UICollectionViewDelegate, UICollecti
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        let add = UIBarButtonItem(image: #imageLiteral(resourceName: "hamburger"), style: .done, target: self, action: #selector(showMenu))
-        self.navigationItem.leftBarButtonItem = add
+        let menu = UIBarButtonItem(image: #imageLiteral(resourceName: "hamburger"), style: .done, target: self, action: #selector(showMenu))
+        self.navigationItem.leftBarButtonItem = menu
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -28,7 +25,6 @@ class GHDashboardTC: UITableViewController, UICollectionViewDelegate, UICollecti
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     // MARK: - Table view data source
